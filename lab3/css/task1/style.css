@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: "Times New Roman", serif;
+    background: #ffffff;
+}
+
+.container {
+    max-width: 800px;
+}
+
+h1 {
+    margin: 0 0 20px;
+    font-size: 32px;
+}
+
+p {
+    font-size: 24px;
+    margin: 16px 0;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 650px;
+    background-color: #40E0D0;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px 14px;
+    font-size: 22px;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    width: 50%;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.funny-text {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+.tag-bracket {
+    font-family: inherit;
+}

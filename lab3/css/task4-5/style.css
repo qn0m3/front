@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    cursor: none;
+}
+
+#circle {
+    width: 60px;
+    height: 60px;
+    background: blue;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transition: transform 0.05s ease-out;
+}

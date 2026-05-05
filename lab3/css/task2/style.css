@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+}
+
+#device-label {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.desktop, .tablet, .mobile {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    .desktop { display: inline; }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .tablet { display: inline; }
+}
+
+@media (max-width: 767px) {
+    .mobile { display: inline; }
+}

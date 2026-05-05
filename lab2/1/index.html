@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asynchronous & Advanced JS</title>
+</head>
+<body>
+    <h1>Asynchronous & Advanced JS</h1>
+    <p>Выберите задание:</p>
+    <div id="pageLoadInfo"></div>
+
+    <button onclick="loadImagesKeepOrderPromises()">
+  Задание 2: 5 картинок с сохранением порядка (Promise)</button>
+    <button onclick="loadImagesNoOrderPromises()">
+  Задание 3: 5 картинок без сохранения порядка (Promise)</button>
+    <button onclick="loadImagesKeepOrderAsync()">
+  Задание 4.1: 5 картинок с сохранением порядка (async/await)</button>
+    <button onclick="loadImagesNoOrderAsync()">
+  Задание 4.2: 5 картинок без сохранения порядка (async/await)</button>
+    <button onclick="checkIpAddresses()">
+  Задание 5: Проверка 5 IP-адресов</button>
+
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>

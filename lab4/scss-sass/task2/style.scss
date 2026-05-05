@@ -1,0 +1,7 @@
+$max: 100;
+
+@for $i from 1 through $max {
+  li:nth-child(#{$i}) {
+    color: rgb($i, 256 - $i, 0);
+  }
+}

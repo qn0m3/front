@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    font-family: Arial, sans-serif;
+    padding: 20px 0;
+}
+
+.logo {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.block {
+    background-color: #e8e8e8;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto 10px auto;
+    padding: 20px 20px 60px 20px;
+    text-align: center;
+    color: #000;
+}
+
+.menu-block,
+.footer-block {
+    padding: 20px;
+}
+
+.menu-block nav a {
+    color: blue;
+    text-decoration: underline;
+    margin: 0 10px;
+    white-space: nowrap;
+}
+
+.columns {
+    display: flex;
+    gap: 10px;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto 10px auto;
+}
+
+.column {
+    flex: 1;
+    margin: 0;
+    padding: 20px 20px 80px 20px;
+    text-align: center;
+}
