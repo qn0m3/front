@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Vue Clicker - CDN</title>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+<div id="app">
+  <p>Счётчик: {{ count }}</p>
+  <button @click="increment">Кликни</button>
+</div>
+
+<script>
+  const { createApp, ref } = Vue;
+
+  createApp({
+    setup() {
+      const count = ref(0);
+      const increment = () => {
+        count.value++;
+      };
+      return { count, increment };
+    }
+  }).mount('#app');
+</script>
+</body>
+</html>
